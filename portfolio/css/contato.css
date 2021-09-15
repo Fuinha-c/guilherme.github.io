@@ -1,0 +1,102 @@
+iframe {
+
+    margin: 100px 0;
+    width: 410px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+input,
+textarea,
+button {
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: Poppins;
+    text-indent: 3px;
+    box-sizing: border-box;
+    outline: none;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    background: transparent;
+    margin-bottom: 20px;
+    transition: 1s;
+    width: 600px;
+}
+
+
+.contato {
+    margin-top: 105px;
+
+}
+
+
+
+
+.nome {
+    /* width: 600px; */
+    height: 42px;
+    /* background: #3B3D5D; */
+    /* border: 1px solid #FFFFFF; */
+    /* border-radius: 10px; */
+    /* margin-bottom: 20px; */
+    /* transition: 1s; */
+}
+
+.email {
+    /* width: 660px; */
+    height: 42px;
+    /* background: #3B3D5D; */
+    /* border: 1px solid #FFFFFF; */
+    /* border-radius: 10px; */
+    /* margin-bottom: 20px; */
+    /* transition: 1s; */
+}
+
+.msg {
+    /* width: 660px; */
+    height: 80px;
+    /* background: #3B3D5D; */
+    /* border: 1px solid #FFFFFF; */
+    /* border-radius: 10px; */
+    /* margin-bottom: 20px; */
+    /* transition: 1s; */
+    resize: none;
+}
+
+.botao {
+    width: auto;
+    text-decoration: none;
+    float: right;
+    padding: 12px 13px 12px 13px;
+    /* transition: 1s; */
+}
+/* msg de erro */
+#erro {
+    width: 400px;
+    margin-top: 5px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.campoErro {
+    border: 1px dashed rgb(247, 46, 46);
+    background: #393a41;
+}
+
+/* comandos diferentes */
+
+::placeholder {
+    color: #CCCCCC;
+}
+
+.botao:hover {
+    background: #ff4a57;
+    border: #ff4a57;
+}
+
+.nome:hover, 
+.email:hover, 
+.msg:hover {
+    background:#393a41;
+}

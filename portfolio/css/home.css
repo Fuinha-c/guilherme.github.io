@@ -1,0 +1,44 @@
+.redes-sociais {
+    margin-top: 100px;
+}
+
+.redes-sociais a {
+    border: 1px solid #ff4a57;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin-right: 30px;
+    border-radius: 50%;
+    transition: background 1s;
+}
+
+.redes-sociais a:hover {
+    background: #ff4a57;
+}
+
+.redes-sociais img:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.polaroid {
+    width: 70%;
+    padding: 10px 10px 60px 10px;
+    background: #FFFFFF;
+    transform: rotate(4deg);
+    transition: 1s
+}
+
+.polaroid:hover {
+    box-shadow: 4px 4px 40px 20px #000000;
+    transform: rotate(14deg);
+}

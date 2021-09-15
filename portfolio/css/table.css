@@ -1,0 +1,31 @@
+.table-round-corner {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+    border-collapse:separate;
+    border: solid #ccc 1px;
+    border-radius: 15px;
+}
+
+th{
+    color: white;
+    background-color: black;
+    font-weight: normal;
+    text-align: center;
+    padding: 5px;
+
+}
+
+td {
+    color: rgb(199, 196, 196);
+    padding: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    transition: 1s;
+
+}
+
+td:hover {
+    background :rgba(184, 175, 175, 0.274);
+    transition: 1s;
+}

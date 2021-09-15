@@ -1,0 +1,4 @@
+td:hover {
+    background :rgb(230, 220, 220);
+    transition: 0.5s;
+}
