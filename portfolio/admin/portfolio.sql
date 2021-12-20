@@ -1,18 +1,25 @@
-show databases;
-
-create database portfolio;
-
 use portfolio;
+SELECT * FROM cursos;
+drop table usuarios;
 
-create table cursos (
-	id_curso int unsigned not null auto_increment primary key,
-    nome varchar(50) not null,
-    carga_horaria int(3) unsigned not null
+CREATE TABLE `cursos` (
+  `id_curso` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `nome` varchar(50) NOT NULL,
+  `carga_horaria` int(3) unsigned NOT NULL,
+  `instituicao` varchar(50) NOT NULL,
+  PRIMARY KEY (`id_curso`)
+); 
 
- );
- 
- insert into cursos (nome, carga_horaria) values ('HTML, CSS e JS', 40);
- insert into cursos (nome, carga_horaria) values ('Lógica de Programação', 20);
- insert into cursos (nome, carga_horaria) values ('Introdução ao SQL', 20);
- 
- select * from cursos;
+SELECT * FROM cursos;
+
+create table `usuarios` (
+ `id` int unsigned ZEROFILL NOT NULL AUTO_INCREMENT,
+`login` varchar(25) NOT NULL,
+`senha` varchar(20) NOT NULL,
+PRIMARY KEY (`id`)
+);
+
+SELECT * FROM usuarios;
+
+INSERT INTO usuarios (login, senha) VALUES ('gui', '123');
+
